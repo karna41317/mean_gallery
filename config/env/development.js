@@ -18,11 +18,11 @@ module.exports = {
 		}
 	},
 	app: {
-		title: 'Mean Gallery Web Page'
+		title: 'Mean Gallery'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+		clientID: process.env.FACEBOOK_ID || '342402062614224',
+		clientSecret: process.env.FACEBOOK_SECRET || '9f982f4ef5e0bdc00f8608b6d55cb528',
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {
