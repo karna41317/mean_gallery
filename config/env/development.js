@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://localhost/mean-dev',
+		uri: 'mongodb://heroku_app33800581:v8kbgkvum52lnsvj0rqv4qiq6t@ds041871.mongolab.com:41871/heroku_app33800581',
 		options: {
 			user: '',
 			pass: ''
@@ -18,7 +18,7 @@ module.exports = {
 		}
 	},
 	app: {
-		title: 'MEAN.JS - Development Environment'
+		title: 'Mean Gallery Web Page'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

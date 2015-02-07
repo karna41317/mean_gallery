@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://localhost/mean-test',
+		uri: 'mongodb://heroku_app33800581:v8kbgkvum52lnsvj0rqv4qiq6t@ds041871.mongolab.com:41871/heroku_app33800581',
 		options: {
 			user: '',
 			pass: ''
